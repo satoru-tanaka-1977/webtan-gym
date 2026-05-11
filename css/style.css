@@ -41,14 +41,49 @@ a {
 /* トップページボタン */
 
 .page-top {
+    display: inline-block;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 60px;
-    height: 60px;
-    background: #000;
+    right: 10%;
+    bottom: 0px;
+    background: #6d238d;
     color: #fff;
-    padding: ;
+    padding: 10px 40px;
 
 
+}
+
+/* ヘッダー */
+#header {
+    border-top: #6d238d 4px solid;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-logo {
+    width: 120px;
+}
+
+.header-info {
+    font-size: 1.25rem;
+}
+
+/* ナビゲーション */
+
+.nav {
+    background: #6d238d;
+    font-size: 1.125rem;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    padding: 15px 40px;
+    color: #fff;
+    display: block;
 }
