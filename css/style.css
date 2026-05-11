@@ -66,6 +66,7 @@ a {
 .section .marker {
     background-color: #ded0e7;
     margin: 0 3px;
+    padding: 0 3px;
 }
 
 
@@ -115,7 +116,7 @@ a {
 
 /* 理念 */
 
-.lead  {
+.lead {
     font-size: 1.25rem;
     text-align: center;
     margin-bottom: 15px;
@@ -127,19 +128,19 @@ a {
 
 /* おすすめコース */
 
-.course  {
+.course {
     background-color: #d9d6e1;
 }
 
 .course .course-list {
     display: flex;
     justify-content: space-between;
-    gap : 30px;
+    gap: 30px;
     margin: 0 auto 60px;
 }
 
 .course .course-list li {
-    gap : 20px;
+    gap: 20px;
 }
 
 .course-list__ttl {
@@ -165,4 +166,29 @@ a {
 
 .btn a:hover {
     background-color: #ded0e7;
+}
+
+/* メッセージ */
+
+.message {
+    background-image: url(../images/bg_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.message img {
+    float: left;
+    margin: 0 15px 15px 0
+}
+.message p {
+    margin-bottom: 15px;
+}
+
+.message .trainer-name {
+    text-align: right;
+}
+.section .marker {
+    color: #1b0529;
 }
