@@ -16,7 +16,7 @@ body {
 
 img {
     max-width: 100%;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 li {
@@ -151,7 +151,7 @@ a {
 .course-list__ttl {
     font-size: 1.25rem;
     font-weight: bold;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -253,4 +253,38 @@ a {
 
 .copyright {
     text-align: center;
+}
+
+/* SP */
+
+@media screen and (max-width: 768px) {
+
+/* ヘッダー */
+
+.header-inner {
+    width: 90%;
+}
+
+.wrapper,
+.wrapper-s {
+    width: 90%;
+}
+
+/* ナビゲーション */
+
+.nav {
+    display: none;
+}
+
+/* コース */
+
+.course .course-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.course-list__item {
+    width: 300px;
+}
 }
