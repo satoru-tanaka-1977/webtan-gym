@@ -83,6 +83,8 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .header-logo {
@@ -113,7 +115,10 @@ a {
 
 /* メインビジュアル */
 
-
+/* メインビジュアル */
+.main-visual img {
+    width: 100%;
+}
 /* 理念 */
 
 .lead {
@@ -175,6 +180,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     color: #fff;
 }
 
@@ -182,6 +188,7 @@ a {
     float: left;
     margin: 0 15px 15px 0
 }
+
 .message p {
     margin-bottom: 15px;
 }
@@ -189,6 +196,61 @@ a {
 .message .trainer-name {
     text-align: right;
 }
+
 .section .marker {
     color: #1b0529;
+}
+
+/* 運営 */
+
+.company table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.company th {
+    border: solid 1px #b2a9b5;
+    padding: 10px;
+    background-color: #d9d4db;
+}
+
+.company td {
+    border: solid 1px #b2a9b5;
+    padding: 10px;
+}
+
+.company a {
+    color: #6d238d;
+    text-decoration: underline;
+}
+
+/* フッター */
+#footer {
+    background: linear-gradient(#6d238d 0%, #12125e 100%);
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    line-height: 16px;
+}
+
+.footer-nav li {
+    padding: 0 5px;
+    border-right: solid 1px #fff;
+}
+
+.footer-nav li:last-child {
+    border-right: none;
+}
+
+.footer-nav a {
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
 }
