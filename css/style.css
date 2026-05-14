@@ -85,6 +85,7 @@ a {
     padding: 20px 0;
     max-width: 960px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .header-logo {
@@ -93,6 +94,10 @@ a {
 
 .header-info {
     font-size: 1.25rem;
+}
+
+.toggle {
+    display: none;
 }
 
 /* ナビゲーション */
@@ -111,6 +116,10 @@ a {
     padding: 15px 40px;
     color: #fff;
     display: block;
+}
+
+.sp-nav{
+    display: none;
 }
 
 /* メインビジュアル */
@@ -272,6 +281,12 @@ a {
         width: 90%;
     }
 
+     .toggle {
+
+        display: block;
+
+    }
+
     /* ナビゲーション */
 
     .nav {
@@ -281,6 +296,7 @@ a {
     /* ハンバーガーメニュー */
 
     .sp-nav {
+        display: block;
         position: fixed;
         top: -100%;
         opacity: 0;
